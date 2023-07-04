@@ -1,0 +1,61 @@
+1.The Syntax to declare varaible is "data_type varaible_name;"
+2.No
+3.Yes
+4.No
+5.To declare Variables
+6.Yes
+7.Yes
+8.No
+9.The Syntax to declare array is "data_type[] arrary_name{}"
+10.
+11.The steps to run java program are:
+	Writing the code with main method
+	Saving the code with filename.java
+	The "javac file_name.java" is used to compile the .java file to .class
+	The "java file_name" is used to run the code.
+12.The javac is the command in the java called as compiler, and it is used to compile
+	the .java file into .class and the location of javac is 
+	"C:\Program Files\Java\Jdk1.8.0_261\Bin"
+	The java is also the command use to execute the program and its location is
+	"C:\Program Files\Java\Jdk1.8.0_261\Bin"
+13.Used to load the class.
+14.The ArrayIndexOutofBound Exception occurs when we have array indexes of 5.
+	And we use array index 6 in the program.
+	We have to provide correct array indexes in the program.
+15.Java is high level object oriented programming language which deals with the real 
+	world entities or things.
+16.The JDK is "Java Development Kit" used to write or create the programs and it acts as platform.
+	The JRE is "Java Runtime Environment" used to run the programs or execute of the programs.
+	The JVM is "Java Virtual Machine" where the actual execution takes place.
+17.API
+18.No
+19.The WORA "Write once run anywhere" nature of java is due to the ".class" file or "byte_code",
+	The byte_code can be run anywhere using the JVM, so the byte_code makes the java platform independent.
+20.Error
+21.The JVM "Java Virtual Machine" where the actual execution takes place. The JVM needs only byte_code for  
+	execution. So it makes the java platform Independent. And it can be installed on any machine
+22.The class has two members Variables and Methods.
+	The variable is instance of a class.
+23.The Arguments are usually used to print the data or values.
+	The types of arguments are Formal and Actual.
+24.The formal arguments are used to print the data.
+	The actual arguments are used to reference.
+25.The Variable is the instance of a class. It can be declared and initialised under the class.
+	The Syntax of varaible is "data_type varaible_name;"
+26.The java stores the variables or the ref of the varaibles in Constant pool in the memory.
+27.The assigning of data or value to the varaible known as variable initialization.
+28.To store and access the data easily.
+29.
+30.The actual Execution takes place.
+	The JVM is cloud.
+	Can be installed on any machine.
+31.
+32.The WORA stands for "Write Once Run Anywhere"
+33.The "--version" used to check the version of java.
+35.The class is design or template under which the variables,objects,methods are defined.
+	And the class is non-primitive data type.
+36.Basically the object refers to real world entities or things. In java the object is instance
+	of class or container to store the data.
+37.The syntax for declaring class is "class class_name{}"
+38.The syntax is "class_name.method_name();"
+39.Constructor is the container used to create copy of variables or ref.
