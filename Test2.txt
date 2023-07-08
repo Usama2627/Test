@@ -1,0 +1,125 @@
+1.Brother
+2.GrandFather
+3.Cousin
+4.MaternalUncle
+5.Son-in-law
+6.X+A*Y
+7.R
+8.Brother
+9.Father 
+10.T
+11.10kms
+12.North
+13.South
+14.West
+
+//JAVA test
+
+1.Error, The int cannot be converted to boolean.
+
+2.10,110
+
+3.Error, The int cannot be converted to boolean.
+
+4.The main method is static because it invokes the instance of the class and it is the entry point of the program.
+
+5.import java.util.Arrays;
+
+public class ReverseArray {
+    public static void main(String[] args) {
+        int[] inputArray = {10, 45, 7, 9, 2};
+
+        System.out.println("Input Array: " + Arrays.toString(inputArray));
+
+        reverseArray(inputArray);
+
+        System.out.println("Reversed Array: " + Arrays.toString(inputArray));
+    }
+
+    public static void reverseArray(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+
+6.import java.util.Arrays;
+import java.util.LinkedHashSet;
+
+public class RemoveDuplicates {
+    public static void main(String[] args) {
+        int[] input = {2, 5, 4, 8, 2, 3, 6, 2};
+        
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+        for (int num : input) {
+            set.add(num);
+        }
+        
+        Integer[] uniqueArray = set.toArray(new Integer[0]);
+        
+        Arrays.sort(uniqueArray);
+        
+        int[] output = new int[uniqueArray.length];
+        for (int i = 0; i < uniqueArray.length; i++) {
+            output[i] = uniqueArray[i];
+        }
+        
+        System.out.println(Arrays.toString(output));
+    }
+}
+
+7.Done
+
+8.The "this" is used to refer to the current object or to convert the instance variables to local variables.
+	And the "this()" is used for chaining, this specifies invoking of one constructor into another constructor.
+	
+9.public class SwapNumbers {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        
+        System.out.println("Before swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        
+        System.out.println("After swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
+
+10.public class Pattern1 {
+    public static void main(String[] args) {
+        System.out.println("		&		&");
+        System.out.println("			&");
+        System.out.println("		&		&");
+    }
+}
+
+11.public class Pattern2 {
+    public static void main(String[] args) {
+        System.out.println("%	%	%");
+        System.out.println("%	&	%");
+        System.out.println("%	%	%");
+    }
+}
+
+12.public class Pattern3 {
+    public static void main(String[] args) {
+        System.out.println("%   %  	%");
+        System.out.println("%       %");
+        System.out.println("%   %   %");
+    }
+}
+

@@ -58,4 +58,4 @@
 	of class or container to store the data.
 37.The syntax for declaring class is "class class_name{}"
 38.The syntax is "class_name.method_name();"
-39.Constructor is the container used to create copy of variables or ref.
+39.Constructor is the block of code used to create copy of instance.
