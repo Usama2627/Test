@@ -1,0 +1,25 @@
+1. CREATE DATABASE dataBase_name;
+
+2. CREATE TABLE table_name;
+
+3. ALTER TABLE table_name ADD column_name data_type;
+
+4. ALTER TABLE table_name DROP COLUMN column_name;
+
+5. ALTER TABLE table_name RENAME COLUMN column_name TO new_column_name;
+
+6. ALTER TABLE table_name MODIFY COLUMN column_name datatype;
+
+7. UPDATE table_name SET column1 = new_value1, column2 = new_value2, ...............WHERE condition;
+
+8. DELETE FROM table_name WHERE condition;
+
+9. SELECT INSTR(column_name, 'character') AS position FROM table_name;
+
+10. SELECT COUNT(column_name) FROM table_name;
+	SELECT SUM(column_name) FROM table_name;
+	SELECT MIN(column_name) FROM table_name;
+	SELECT MAX(column_name) FROM table_name;
+	SELECT AVG(column_name) FROM table_name;
+
+

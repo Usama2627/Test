@@ -1,0 +1,153 @@
+1. x=11 y=34
+
+2. Error
+
+3. Error, There is no static block
+
+4. Length is : 4 
+   Sum of values is : 200
+   
+6. Method parameters are defined in parenthesis of the Method,
+   returnType methodName(parameterType1 parameterName1, parameterType2 parameterName2, ...) {Method body}
+   The return statement is optional if returnType is not 'void'
+   The returnType specifies the returning of the value, if we dont want anything to return then it will be 'void'.
+   The methodName specifies the Name of the Method.
+   
+7. Compile time polymorphism refers to the 'JVM' or the 'Compiler' which decides the invoking of the Methods, When there is 
+	Method Overloading based on the arguements.
+	
+	Example:
+	
+	public class MathOperations {
+	
+    public int add(int a, int b) {
+        return a + b;
+    }
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    public double add(double a, double b) {
+        return a + b;
+    }
+	
+	The above example has 3 methods with same method name 'add' and different parameters known as 'Method Overloading'.
+	
+8. In java Var-args refer to Variable length arguements, which allows us to pass number of arguements with same data type.
+	For example, The arguements passed within the parenthesis of the methods,
+	MethodName(Var.....args){MethodBody}
+
+9. Package is nothing but Folders where we write the programs, and we can access these programs or the classes using the packages.
+	SingleType : This refers using of the single class from the package.
+	WildCard : This refers using of the multiple classes from the package.
+
+10. The Constructor chaining refers to calling one constructor in another using 'this' and 'super' keywords,
+	To achieve constructor chaining, within the same class 'this' keyword should be used, and 'super' keyword for the other classes.
+	Example:
+	Const(String name)
+	{
+	 super();
+	 this();
+	}
+	Const(String name, int price)
+	{
+	 super();
+	 this();
+	}
+	 
+11. public class FibonacciRecursion {
+
+    public static void main(String[] args) {
+        int n = 10;
+        System.out.println("Fibonacci sequence up to " + n + " terms:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }
+    }
+
+    public static int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+     }
+   }
+
+12. public class CheckOddNumbers {
+
+    public static void main(String[] args) {
+        int num1 = 13579;
+        int num2 = 2468;
+
+        System.out.println(num1 + " contains only odd numbers: " + containsOnlyOddNumbers(num1));
+        System.out.println(num2 + " contains only odd numbers: " + containsOnlyOddNumbers(num2));
+    }
+
+    public static boolean containsOnlyOddNumbers(int number) {
+        while (number != 0) {
+            int digit = number % 10;
+            if (digit % 2 == 0)
+			{
+                return false;
+            }
+            number /= 10;
+        }
+        return true;
+      }
+   }
+   
+13.
+
+14. In java Enumeration refers to 'enum', enum is a special dataType used to define fixed or particular values which we write in the enum,
+	The values which we write in the enum are called 'Constants', The name of the enum and the variable type we declaring within the class 
+	should be same.
+	Example :
+	public enum DayOfWeek {
+    SUNDAY,
+    MONDAY,
+    TUESDAY...
+    }
+	
+15. when we create an Object the JVM perfoms some operations like :
+	*Loading the class: Initially it loads the class 
+	*Memory Allocation: Allocates the memory
+	*Instance variable initialization: initailizes the variables
+	*Object refrence: Creates the refrence of the object.
+	
+16. The members of class are
+	*Variables
+	*Methods
+	*Constructors
+	*Constants.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
